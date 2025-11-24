@@ -38,6 +38,9 @@ The script will:
    ```bash
    python3 -m venv .venv
    .venv/bin/pip install -r requirements.txt
+   
+   # For development (includes testing and linting tools)
+   .venv/bin/pip install -r requirements-dev.txt
    ```
 
 3. **Configure environment**
@@ -107,6 +110,43 @@ Quick examples:
 
 # Filter specific log types
 .venv/bin/uvicorn app.main:app --reload 2>&1 | grep "🌐"  # Google API calls only
+```
+
+## Development Setup
+
+For contributors and developers working on the codebase:
+
+### Install Development Dependencies
+
+```bash
+# Install both production and development dependencies
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+```
+
+The `requirements-dev.txt` includes:
+- **Testing**: pytest, pytest-cov, pytest-asyncio, pytest-mock
+- **Code Quality**: flake8, black, isort, mypy
+- **Security**: safety, bandit
+
+### Code Quality Tools
+
+```bash
+# Format code with Black
+black app/ tests/
+
+# Sort imports with isort
+isort app/ tests/
+
+# Lint with flake8
+flake8 app/ tests/
+
+# Type check with mypy
+mypy app/ --ignore-missing-imports
+
+# Security scan
+safety check
+bandit -r app/
 ```
 
 ## Testing

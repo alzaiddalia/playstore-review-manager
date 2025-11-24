@@ -36,7 +36,7 @@ fi
 # Check if pytest is installed
 if ! command -v pytest &> /dev/null; then
     echo -e "${YELLOW}📦 Installing test dependencies...${NC}"
-    pip install -q pytest pytest-cov pytest-asyncio httpx
+    pip install -q -r requirements-dev.txt
 fi
 
 # Parse command line argument
